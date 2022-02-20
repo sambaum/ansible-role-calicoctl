@@ -6,5 +6,5 @@ calicoctl_exe: calicoctl-{{ calicoctl_platform }}{{ calicoctl_eff_suffix }}
 calicoctl_ver_exe: calicoctl-{{calicoctl_platform}}-{{ calicoctl_ver }}{{ calicoctl_eff_suffix }}
 calicoctl_url: '{{ calicoctl_mirror }}/{{ calicoctl_ver }}/{{ calicoctl_exe }}'
 calicoctl_target: '{{ calicoctl_install_dir }}/{{ calicoctl_ver_exe }}'
-calicoctl_link: '{{ calicoctl_install_dir }}/calicoctl'
+calicoctl_link: '{{ calicoctl_install_dir }}/{{ calicoctl_command }}'
 calicoctl_checksum: '{{ calicoctl_checksums[calicoctl_ver][calicoctl_platform] }}'

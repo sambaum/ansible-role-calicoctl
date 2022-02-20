@@ -5,6 +5,7 @@ calicoctl_mirror: https://github.com/projectcalico/calicoctl/releases/download
 calicoctl_os: linux
 calicoctl_arch: amd64
 calicoctl_install_dir: /usr/local/bin
+calicoctl_command: calicoctl
 
 calicoctl_checksums:
   v3.2.0:
